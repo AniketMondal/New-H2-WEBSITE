@@ -6,8 +6,6 @@ $err=$_GET['id'];
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Login/Sign Up</title>
-<link rel="stylesheet" href="css/materialize.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -84,17 +82,18 @@ img.avatar {
 }
 </style>
 </head>
-<body style="background-color: #210002;background-image:url('images/keyart-mobile.jpg'); background-size:cover; background-repeat: no-repeat; background-position:center;">
-	<div class="container-fluid">
+<body style="background-color: #210002;">
+	<div class="container-fluid" style="background-image:url('images/keyart-mobile.jpg'); background-size:cover; background-repeat: no-repeat; background-position: center;">
 		<div class="Logo" style="text-align: center;">
 			<img src="images/h2.png" alt="H2 Icon" style="height: 200px;">
-			<br><br>
 			<h1 style="color:green; size: 10px;font-family:Klavika Bold;text-align:center">Hostel 2</h1>
 	    </div>
 		
 		<h2 style="text-align:center;color:green;">Login</h2>
-		<br>
+		  
+		<div class="container" style="background-color: transparent;">
 		  <form action="check.php" method = "POST" enctype = "multipart/form-data" style="background-color:default;text-align:center">
+		  	
 				<div class="form-group">
 				<label for="Username"><h2 style="color:#ffaf00;text-align:center">Username</h2></label>
 				<input type="text" placeholder="Enter Username" onfocus="this.placeholder = ''" name="Username" required style="font-size: 2em; color:#ffaf00; background-color:transparent;text-align:center">
@@ -109,21 +108,24 @@ img.avatar {
 						echo "<h3 style='color:red;'>Wrong Username or Password entered</h3>";
 					}
 				?>
-				<br><br><br>
-				<div class="container-fluid">
-				<button class="btn btn-outline-warning" type="submit" style="font-weight:900;text-align:center">login</button>
+		</div>
+				<div class="container" style="background-color: transparent;">
+				<div class="col-lg-12 col-md-12 col-xs-12">
+				<button class="btn btn-outline-warning"type="submit" style="font-weight:900;text-align:center">login</button>		
 				</div>
-		  </form>
-
-			<div class="col-lg-6 col-md-6 col-xs-6">	
+			</div>
+		</form>
+		<div class="container" style="background-color: transparent;">
+				<div class="col-lg-6 col-md-6 col-xs-6">
 				<a href="https://gymkhana.iitb.ac.in/~hostel2/forgotpassword.html">
 				<button class="btn btn-outline-warning" style="color:#ffaf00;font-weight:900;background-color:transparent">Forgot password?</button>
 				</a>
-			</div>
-			<div class="col-lg-6 col-md-6 col-xs-6">
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-6">
 				<a href="https://gymkhana.iitb.ac.in/~hostel2/sso.php">
 				<button class="btn btn-outline-warning" style="color:#ffaf00;font-weight:900;background-color:transparent">Sign Up</button>
 				</a>
+				</div>
 			</div>
 	</div>
 </body>

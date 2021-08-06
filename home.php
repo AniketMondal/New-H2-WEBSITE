@@ -68,8 +68,7 @@ session_start();
 					<li id="nav-blog"><a href="portals/messrebate/"><strong><span>Mess Rebate</span></strong></a></li>
 					<li id="nav-blog"><a href="portals/lancomplaints/"><strong><span>LAN</span></strong></a></li>
 					<li id="nav-game"><a href="#"><strong><span>Home</strong></a></li>
-					<li id="nav-review"><a href="council/index.php"><strong><span>Council</span></strong></a></li>
-					<li id="nav-blog"><a href="legends.php"><strong><span>Legends</span></strong></a></li>
+					<li id="nav-review"><a href="council/index.html"><strong><span>Council</span></strong></a></li>
 			</ul>		
 				<script type="text/javascript">document.getElementById("nav-game").className += " current";</script>
 			
@@ -163,20 +162,6 @@ session_start();
 				</ul>
 				</div>
 				</br>
-				<div class="section screenshots">
-					<ul class="thumbnails">
-						<li>
-							<a href="gallery/IMG_0141.JPG"><img alt="Gallery Preview" src="gallery/IMG_0141.JPG"></a>
-						</li><li>
-							<a href="gallery/gyra.jpeg"><img alt="Gallery Preview" src="gallery/gyra.jpeg"></a>
-						</li><li>
-							<a href="gallery/IMG_0211.JPG"><img alt="Gallery Preview" src="gallery/IMG_0211.JPG"></a>
-						</li><li>
-							<a href="Igallery/MG_0115.JPG"><img alt="Gallery Preview" src="gallery/IMG_0115.JPG"></a>
-						</li>
-						<li><a href="gallery/index.html">Show More...</a></li>
-					</ul>
-				</div>
 				<div class="section pressquote big">
 					<h3 id="myDIV">Insti ka BAAP H2!H2!!!</h3>
 				</div>
